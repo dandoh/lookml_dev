@@ -29,159 +29,158 @@ explore: customers {}
 
 explore: downstream_tbl_d {
   join: customers {
-    type: left_outer 
+    type: left_outer
     sql_on: ${downstream_tbl_d.customer_id} = ${customers.customer_id} ;;
     relationship: many_to_one
   }
 }
 
-explore: downstream_tbl_e {
-  join: customers {
-    type: left_outer 
-    sql_on: ${downstream_tbl_e.customer_id} = ${customers.customer_id} ;;
-    relationship: many_to_one
-  }
-}
+# explore: downstream_tbl_e {
+#   join: customers {
+#     type: left_outer
+#     sql_on: ${downstream_tbl_e.customer_id} = ${customers.customer_id} ;;
+#     relationship: many_to_one
+#   }
+# }
 
-explore: customers_view {
-  join: customers {
-    type: left_outer 
-    sql_on: ${customers_view.customer_id} = ${customers.customer_id} ;;
-    relationship: many_to_one
-  }
-}
+# explore: customers_view {
+#   join: customers {
+#     type: left_outer
+#     sql_on: ${customers_view.customer_id} = ${customers.customer_id} ;;
+#     relationship: many_to_one
+#   }
+# }
 
-explore: downstream_tbl_a {
-  join: customers {
-    type: left_outer 
-    sql_on: ${downstream_tbl_a.customer_id} = ${customers.customer_id} ;;
-    relationship: many_to_one
-  }
-}
+# explore: downstream_tbl_a {
+#   join: customers {
+#     type: left_outer
+#     sql_on: ${downstream_tbl_a.customer_id} = ${customers.customer_id} ;;
+#     relationship: many_to_one
+#   }
+# }
 
-explore: customers_snapshot {
-  join: customers {
-    type: left_outer 
-    sql_on: ${customers_snapshot.customer_id} = ${customers.customer_id} ;;
-    relationship: many_to_one
-  }
-}
+# explore: customers_snapshot {
+#   join: customers {
+#     type: left_outer
+#     sql_on: ${customers_snapshot.customer_id} = ${customers.customer_id} ;;
+#     relationship: many_to_one
+#   }
+# }
 
-explore: downstream_tbl_b {
-  join: customers {
-    type: left_outer 
-    sql_on: ${downstream_tbl_b.customer_id} = ${customers.customer_id} ;;
-    relationship: many_to_one
-  }
-}
+# explore: downstream_tbl_b {
+#   join: customers {
+#     type: left_outer
+#     sql_on: ${downstream_tbl_b.customer_id} = ${customers.customer_id} ;;
+#     relationship: many_to_one
+#   }
+# }
 
-explore: downstream_tbl_c {
-  join: customers {
-    type: left_outer 
-    sql_on: ${downstream_tbl_c.customer_id} = ${customers.customer_id} ;;
-    relationship: many_to_one
-  }
-}
+# explore: downstream_tbl_c {
+#   join: customers {
+#     type: left_outer
+#     sql_on: ${downstream_tbl_c.customer_id} = ${customers.customer_id} ;;
+#     relationship: many_to_one
+#   }
+# }
 
-explore: ge_temp_228949d7 {
-  join: customers {
-    type: left_outer 
-    sql_on: ${ge_temp_228949d7.customer_id} = ${customers.customer_id} ;;
-    relationship: many_to_one
-  }
-}
+# explore: ge_temp_228949d7 {
+#   join: customers {
+#     type: left_outer
+#     sql_on: ${ge_temp_228949d7.customer_id} = ${customers.customer_id} ;;
+#     relationship: many_to_one
+#   }
+# }
 
-explore: ge_temp_b45b065f {
-  join: customers {
-    type: left_outer 
-    sql_on: ${ge_temp_b45b065f.customer_id} = ${customers.customer_id} ;;
-    relationship: many_to_one
-  }
-}
+# explore: ge_temp_b45b065f {
+#   join: customers {
+#     type: left_outer
+#     sql_on: ${ge_temp_b45b065f.customer_id} = ${customers.customer_id} ;;
+#     relationship: many_to_one
+#   }
+# }
 
-explore: ge_temp_8fb2843d {
-  join: customers {
-    type: left_outer 
-    sql_on: ${ge_temp_8fb2843d.customer_id} = ${customers.customer_id} ;;
-    relationship: many_to_one
-  }
-}
+# explore: ge_temp_8fb2843d {
+#   join: customers {
+#     type: left_outer
+#     sql_on: ${ge_temp_8fb2843d.customer_id} = ${customers.customer_id} ;;
+#     relationship: many_to_one
+#   }
+# }
 
-explore: ge_temp_5d66d7f0 {
-  join: customers {
-    type: left_outer 
-    sql_on: ${ge_temp_5d66d7f0.customer_id} = ${customers.customer_id} ;;
-    relationship: many_to_one
-  }
-}
+# explore: ge_temp_5d66d7f0 {
+#   join: customers {
+#     type: left_outer
+#     sql_on: ${ge_temp_5d66d7f0.customer_id} = ${customers.customer_id} ;;
+#     relationship: many_to_one
+#   }
+# }
 
-explore: ge_temp_555dc50a {
-  join: customers {
-    type: left_outer 
-    sql_on: ${ge_temp_555dc50a.customer_id} = ${customers.customer_id} ;;
-    relationship: many_to_one
-  }
-}
+# explore: ge_temp_555dc50a {
+#   join: customers {
+#     type: left_outer
+#     sql_on: ${ge_temp_555dc50a.customer_id} = ${customers.customer_id} ;;
+#     relationship: many_to_one
+#   }
+# }
 
-explore: ge_temp_cb174db4 {
-  join: customers {
-    type: left_outer 
-    sql_on: ${ge_temp_cb174db4.customer_id} = ${customers.customer_id} ;;
-    relationship: many_to_one
-  }
-}
+# explore: ge_temp_cb174db4 {
+#   join: customers {
+#     type: left_outer
+#     sql_on: ${ge_temp_cb174db4.customer_id} = ${customers.customer_id} ;;
+#     relationship: many_to_one
+#   }
+# }
 
-explore: ge_temp_ecf399c4 {
-  join: customers {
-    type: left_outer 
-    sql_on: ${ge_temp_ecf399c4.customer_id} = ${customers.customer_id} ;;
-    relationship: many_to_one
-  }
-}
+# explore: ge_temp_ecf399c4 {
+#   join: customers {
+#     type: left_outer
+#     sql_on: ${ge_temp_ecf399c4.customer_id} = ${customers.customer_id} ;;
+#     relationship: many_to_one
+#   }
+# }
 
-explore: ge_temp_f084c735 {
-  join: customers {
-    type: left_outer 
-    sql_on: ${ge_temp_f084c735.customer_id} = ${customers.customer_id} ;;
-    relationship: many_to_one
-  }
-}
+# explore: ge_temp_f084c735 {
+#   join: customers {
+#     type: left_outer
+#     sql_on: ${ge_temp_f084c735.customer_id} = ${customers.customer_id} ;;
+#     relationship: many_to_one
+#   }
+# }
 
-explore: metricflow_time_spine {}
+# explore: metricflow_time_spine {}
 
-explore: my_first_dbt_model {}
+# explore: my_first_dbt_model {}
 
-explore: payments {
-  join: customers {
-    type: left_outer 
-    sql_on: ${payments.customer_id} = ${customers.customer_id} ;;
-    relationship: many_to_one
-  }
-}
+# explore: payments {
+#   join: customers {
+#     type: left_outer
+#     sql_on: ${payments.customer_id} = ${customers.customer_id} ;;
+#     relationship: many_to_one
+#   }
+# }
 
-explore: stg_orders {
-  join: customers {
-    type: left_outer 
-    sql_on: ${stg_orders.customer_id} = ${customers.customer_id} ;;
-    relationship: many_to_one
-  }
-}
+# explore: stg_orders {
+#   join: customers {
+#     type: left_outer
+#     sql_on: ${stg_orders.customer_id} = ${customers.customer_id} ;;
+#     relationship: many_to_one
+#   }
+# }
 
-explore: stg_customers {
-  join: customers {
-    type: left_outer 
-    sql_on: ${stg_customers.customer_id} = ${customers.customer_id} ;;
-    relationship: many_to_one
-  }
-}
+# explore: stg_customers {
+#   join: customers {
+#     type: left_outer
+#     sql_on: ${stg_customers.customer_id} = ${customers.customer_id} ;;
+#     relationship: many_to_one
+#   }
+# }
 
-explore: my_second_dbt_model {}
+# explore: my_second_dbt_model {}
 
-explore: table_from_procedure {
-  join: customers {
-    type: left_outer 
-    sql_on: ${table_from_procedure.customer_id} = ${customers.customer_id} ;;
-    relationship: many_to_one
-  }
-}
-
+# explore: table_from_procedure {
+#   join: customers {
+#     type: left_outer
+#     sql_on: ${table_from_procedure.customer_id} = ${customers.customer_id} ;;
+#     relationship: many_to_one
+#   }
+# }
